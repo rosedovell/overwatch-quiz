@@ -92,7 +92,7 @@ for hero in heroes:
     hero_name = hero[ 0 ]
     hero_questions = hero[ 1 ]
     for question in hero_questions:
-        key = hero_name + "|" + question
+        key = hero_name + " | " + question
         if not isinstance( hero_questions[ question ] , str ):
             print( "ERROR: Not a string" )
             print( key )
