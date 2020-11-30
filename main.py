@@ -203,13 +203,45 @@ winston = [
     }
 ]
 
+wrecking_ball = [
+    "Wrecking Ball",
+    {
+        "Total HP" : "600",
+        "Normal HP" : "500",
+        "Armor HP" : "100",
+        "Shield HP" : "0",
+        "Quad Cannons Damage" : "5",
+        "Quad Cannons Fire Rate" : "25rps",
+        "Quad Cannons Ammo" : "80",
+        "Quad Cannons Reload Time" : "1s",
+        "Grappling Claw Damage" : "50",
+        "Grappling Claw Movement Speed" : "20m/s",
+        "Grappling Claw Range" : "15m",
+        "Grappling Claw Cooldown" : "5s",
+        "Roll Movement Speed" : "150%",
+        "Adaptive Shield Base HP" : "100",
+        "Adaptive Shield HP per Nearby Enemy" : "100",
+        "Adaptive Shield Duration" : "7s",
+        "Adaptive Shield Cooldown" : "15s",
+        "Piledriver Damage" : "20-100",
+        "Piledriver Radius" : "8m",
+        "Piledriver Cooldown" : "10s",
+        "Minefield Mine Count" : "12",
+        "Minefield Damage (Per Mine)" : "130",
+        "Minefield Mine HP" : "50",
+        "Minefield Cast Time" : "0.1s",
+        "Minefield Duration" : "20s"
+    }
+]
+
 heroes = [
     dva,
     orisa,
     reinhardt,
     roadhog,
     sigma,
-    winston
+    winston,
+    wrecking_ball
     ]
 
 flashcards = {}
