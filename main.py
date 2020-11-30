@@ -78,10 +78,16 @@ reinhardt = [
     }
 ]
 
-heroes = [ dva, orisa, reinhardt ]
+heroes = [
+    dva,
+    orisa,
+    reinhardt
+    ]
+
 flashcards = {}
 flashcards_keys = []
 correct_keys = []
+
 for hero in heroes:
     hero_name = hero[ 0 ]
     hero_questions = hero[ 1 ]
@@ -101,7 +107,7 @@ while len( flashcards_keys ) != len( correct_keys ):
     correct_responses = 0
     for question in flashcards_keys:
         if question not in correct_keys:
-            user_response = input(question + ": ")
+            user_response = input( question + ": " )
             questions_asked += 1
             if user_response == flashcards [ question ]:
                 print( "CORRECT!" )
