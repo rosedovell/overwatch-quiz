@@ -37,16 +37,47 @@ dva = [
             "Call Mech Cast Time" : "2s"
         }
     ]
-orisa = [ 
+
+orisa = [
         "Orisa",
         {
             "Total HP" : "400",
             "Normal HP" : "200",
-            "Armor HP": "200"
+            "Armor HP": "200",
+            "Fusion Driver Damage" : "11",
+            "Fusion Driver Fire Rate" : "12 rps",
+            "Fusion Driver Ammo" : "150",
+            "Fusion Driver Reload Time" : "2.5s",
+            "Fusion Driver Speed Drop" : "70%",
+            "Halt! Area Radius" : "5m",
+            "Halt! Cast Time (fire)" : "0.1s",
+            "Halt! Cast Time (pull)" : "0.45s",
+            "Halt! Duration" : "0.65s",
+            "Halt! Cooldown" : "8s",
+            "Fortify Dmg. Reduction" : "40%",
+            "Fortify Duration" : "4s",
+            "Fortify Cooldown" : "10s",
+            "Protective Barrier Shield HP" : "600",
+            "Protective Barrier Duration" : "20s",
+            "Protective Barrier Cooldown" : "8s",
+            "Supercharger Health" : "200",
+            "Supercharger Damage Boost" : "50%",
+            "Supercharger Cast Time" : "1s",
+            "Supercharger Duration" : "15s"
         }
     ]
 
-heroes = [ dva, orisa ]
+reinhardt = [
+    "Reinhardt",
+    {
+        "Total HP" : "500",
+        "Normal HP" : "300",
+        "Armor HP" : "200",
+        "Shield HP" : "0"
+    }
+]
+
+heroes = [ dva, orisa, reinhardt ]
 flashcards = {}
 flashcards_keys = []
 correct_keys = []
