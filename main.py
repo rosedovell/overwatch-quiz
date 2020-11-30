@@ -135,6 +135,67 @@ dva = [
         }
     ]
 
+echo = [
+    "Echo",
+    {
+        "Total HP" : "200",
+        "Normal HP" : "200",
+        "Armor HP" : "0",
+        "Shield HP" : "0",
+        "Glide Horizontal Speed" : "150%",
+        "Glide Vertical Speed" : "4m/s",
+        "Tri-Shot Damage Per Pellet" : "17",
+        "Tri-Shot Fire Rate" : "3rps",
+        "Tri-Shot Ammo" : "15",
+        "Tri-Shot Reload Time" : "1.5s",
+        "Sticky Bombs Impact Damage" : "5",
+        "Sticky Bombs Explosion Damage" : "25",
+        "Sticky Bombs Self Damage" : "12.5",
+        "Sticky Bombs Bomb Count" : "6",
+        "Sticky Bombs Cast Time" : "1s",
+        "Sticky Bombs Cooldown" : "6s",
+        "Flight Movement Speed" : "8m/s",
+        "Flight Duration" : "3s",
+        "Flight Cooldown" : "6s",
+        "Focusing Beam Damage (Enemy has more than half HP)" : "50dps",
+        "Focusing Beam Damage (Enemy has less than half HP)" : "200dps",
+        "Focusing Beam Duration" : "2.5s",
+        "Focusing Beam Cooldown" : "8s",
+        "Duplicate Ult Charge Speed Multiplier" : "6.5",
+        "Duplicate Cast Time" : "1.35s",
+        "Duplicate Duration" : "15s",
+        "Duplicate Range" : "40m"
+    }
+]
+
+genji = [
+    "Genji",
+    {
+        "Total HP" : "200",
+        "Normal HP" : "200",
+        "Armor HP" : "0",
+        "Shield HP" : "0",
+        "Shuriken Damage per Shuriken" : "28",
+        "Shuriken Fire Rate" : "1.11rps",
+        "Shuriken Count" : "3",
+        "Shuriken Ammo" : "30",
+        "Shuriken Reload Time" : "1s",
+        "Fan of Blades Damage per Shuriken" : "28",
+        "Fan of Blades Shuriken Count" : "3",
+        "Fan of Blades Recovery Time" : "0.75s",
+        "Fan of Blades Ammo" : "24",
+        "Fan of Blades Reload Time" : "1s",
+        "Swift Strike Damage" : "50",
+        "Swift Strike Cooldown" : "8s",
+        "Swift Strike Duration" : "0.4s",
+        "Deflect Cooldown" : "8s",
+        "Deflect Duration" : "2s",
+        "Dragonblade Damage" : "120",
+        "Dragonblade Fire Rate" : "1rps",
+        "Dragonblade Duration" : "6s"
+    }
+]
+
 orisa = [
     "Orisa",
     {
@@ -368,6 +429,8 @@ heroes = [
     bastion,
     doomfist,
     dva,
+    echo,
+    genji,
     orisa,
     reinhardt,
     roadhog,
