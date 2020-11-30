@@ -234,6 +234,39 @@ wrecking_ball = [
     }
 ]
 
+zarya = [
+    "Zarya",
+    {
+        "Total HP" : "400",
+        "Normal HP" : "200",
+        "Armor HP" : "0",
+        "Shield HP" : "200",
+        "Energy Max Charges" : "100",
+        "Energy Decay Rate" : "1.6charge/s",
+        "Energy, 1 Charge per X dmg absorbed" : "5",
+        "Particle Cannon Base Damage" : "95dps",
+        "Particle Cannon Additional Damage Per Charge" : "0.75",
+        "Particle Cannon Ammo" : "100",
+        "Particle Cannon Fire Rate" : "20rps",
+        "Particle Cannon Reload Time" : "1.5s",
+        "Particle Cannon Alt Base Damage" : "45",
+        "Particle Cannon Alt Additional Damage Per Charge" : "1%",
+        "Particle Cannon Alt Fire Rate" : "1rps",
+        "Particle Cannon Alt Ammo" : "100",
+        "Particle Cannon Alt Ammo Used Per Shot" : "25",
+        "Particle Cannon Reload Time" : "1.5s",
+        "Particle Barrier HP" : "200",
+        "Particle Barrier Duration" : "2s",
+        "Particle Barrier Cooldown" : "10s",
+        "Projected Barrier HP" : "200",
+        "Projected Barrier Duration" : "2s",
+        "Projected Barrier Cooldown" : "8s",
+        "Graviton Surge Damage" : "22",
+        "Graviton Surge Area Radius" : "6",
+        "Graviton Surge Duration" : "4s"
+    }
+]
+
 heroes = [
     dva,
     orisa,
@@ -241,7 +274,8 @@ heroes = [
     roadhog,
     sigma,
     winston,
-    wrecking_ball
+    wrecking_ball,
+    zarya
     ]
 
 flashcards = {}
