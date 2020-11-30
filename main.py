@@ -102,8 +102,8 @@ reinhardt = [
 
 heroes = [
     dva,
-#    orisa,
-#    reinhardt
+    orisa,
+    reinhardt
     ]
 
 flashcards = {}
