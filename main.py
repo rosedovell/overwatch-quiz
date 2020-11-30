@@ -176,12 +176,40 @@ sigma = [
     }
 ]
 
+winston = [
+    "Winston",
+    {
+        "Total HP" : "500",
+        "Normal HP" : "400",
+        "Armor HP" : "100",
+        "Shield HP" : "0",
+        "Tesla Cannon Damage" : "3",
+        "Tesla Cannon Fire Rate" : "20rps",
+        "Tesla Cannon Ammo" : "100",
+        "Tesla Cannon Reload Time" : "1.5s",
+        "Jump Pack Damage" : "1-45",
+        "Jump Pack Area Radius" : "5m",
+        "Jump Pack Cooldown (not in Primal Rage)" : "6s",
+        "Jump Pack Cooldown in Primal Rage" : "2s",
+        "Barrier Projector HP" : "600hp",
+        "Barrier Projector Area Radius" : "5m",
+        "Barrier Projector Duration" : "9s",
+        "Barrier Projector Cooldown" : "13s",
+        "Primal Rage HP" : "1000",
+        "Primal Rage Damage" : "40",
+        "Primal Rage Fire Rate" : "1.8rps",
+        "Primal Rage Duration" : "10s",
+        "Primal Rage Movement Speed" : "130%"
+    }
+]
+
 heroes = [
     dva,
     orisa,
     reinhardt,
     roadhog,
-    sigma
+    sigma,
+    winston
     ]
 
 flashcards = {}
