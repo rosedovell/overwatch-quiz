@@ -196,6 +196,31 @@ genji = [
     }
 ]
 
+hanzo = [
+    "Hanzo",
+    {
+        "Total HP" : "200",
+        "Normal HP" : "200",
+        "Armor HP" : "0",
+        "Shield HP" : "0",
+        "Lunge Cooldown" : "5s",
+        "Storm Bow Damage" : "29-125",
+        "Storm Bow Fire Rate" : "0.8-2rps",
+        "Storm Bow Movement Speed" : "70%",
+        "Sonic Arrow Radius" : "9m",
+        "Sonic Arrow Duration" : "6s",
+        "Sonic Arrow Cooldown" : "12s",
+        "Storm Arrows Damage per arrow" : "70",
+        "Storm Arrows Fire Rate" : "4rps",
+        "Storm Arrows Arrow Count" : "5",
+        "Storm Arrows Duration" : "5s",
+        "Storm Arrows Cooldown" : "10s",
+        "Dragonstrike Arrow Damage" : "125",
+        "Dragonstrike Dragon Damage" : "200/s",
+        "Dragonstrike Cast Time" : "1.5s"
+    }
+]
+
 orisa = [
     "Orisa",
     {
@@ -431,6 +456,7 @@ heroes = [
     dva,
     echo,
     genji,
+    hanzo,
     orisa,
     reinhardt,
     roadhog,
