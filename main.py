@@ -43,7 +43,8 @@ orisa = [
         {
             "Total HP" : "400",
             "Normal HP" : "200",
-            "Armor HP": "200",
+            "Armor HP" : "200",
+            "Shield HP" : "0",
             "Fusion Driver Damage" : "11",
             "Fusion Driver Fire Rate" : "12 rps",
             "Fusion Driver Ammo" : "150",
