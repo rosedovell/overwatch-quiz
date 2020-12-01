@@ -981,6 +981,35 @@ zarya = [
     }
 ]
 
+zenyatta = [
+    "Zenyatta",
+    {
+        "Total HP" : "200",
+        "Normal HP" :  "50",
+        "Armor HP" : "0",
+        "Shield HP" : "150",
+        "Orb of Destruction Damage" : "48",
+        "Orb of Destruction Fire Rate" : "2.5rps",
+        "Orb of Destruction Ammo" : "20",
+        "Orb of Destruction Reload Time" : "2s",
+        "Orb Volley Damage per Orb" : "46",
+        "Orb Volley Orb Count" : "5",
+        "Orb Volley Charge Time per Orb" : "0.52s",
+        "Orb Volley Max Hold Time" : "3s",
+        "Orb Volley Cooldown" : "0.6s",
+        "Orb of Harmony Healing per Second" : "30",
+        "Orb of Harmony Range" : "40m",
+        "Orb of Harmony Out of Sight Duration" : "3s",
+        "Orb of Discord Damage Boost" : "130%",
+        "Orb of Discord Range" : "40m",
+        "Orb of Discord Out of Sight Duration" : "3s",
+        "Transcendence Heal Rate per Second" : "300",
+        "Transcendence Radius" : "10m",
+        "Transcendence Movement Speed" : "200%",
+        "Transcendence Duration" : "6s"
+    }
+]
+
 heroes = [
     ana,
     ashe,
@@ -1012,7 +1041,8 @@ heroes = [
     widowmaker,
     winston,
     wrecking_ball,
-    zarya
+    zarya,
+    zenyatta
     ]
 
 flashcards = {}
