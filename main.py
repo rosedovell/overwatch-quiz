@@ -448,6 +448,33 @@ mei = [
     }
 ]
 
+mercy = [
+    "Mercy",
+    {
+        "Total HP" : "200",
+        "Normal HP" : "200",
+        "Armor HP" : "0",
+        "Shield HP" : "0",
+        "Regeneration HP per Second" : "20",
+        "Regeneration Delay After Taking Damage" : "1s",
+        "Caduceus Staff Damage Boost" : "130%",
+        "Caduceus Staff Heal HP per Second" : "55",
+        "Caduceus Staff Range" : "15m",
+        "Caduceus Blaster Damage" : "25",
+        "Caduceus Blaster Fire Rate" : "5rps",
+        "Caduceus Blaster Ammo": "20",
+        "Caduceus Blaster Reload Time" : "1.5s",
+        "Guardian Angel Movement Speed" : "20m/s",
+        "Guardian Angel Range" : "30m",
+        "Guardian Angel Cooldown" : "1.1s",
+        "Resurrect Movement Speed" : "25%",
+        "Resurrect Cast Time" : "1.75s",
+        "Resurrect Cooldown" : "30s",
+        "Valkyrie Heal HP per Second" : "60",
+        "Valkyrie Duration" : "15s"
+    }
+]
+
 orisa = [
     "Orisa",
     {
@@ -933,6 +960,7 @@ heroes = [
     lucio,
     mccree,
     mei,
+    mercy,
     orisa,
     pharah,
     reaper,
