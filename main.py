@@ -1083,10 +1083,10 @@ while len( flashcards_keys ) != len( correct_keys ):
             else:
                 print( "INCORRECT" )
                 print( "Correct answer was: " + flashcards[ question ] )
-            print("")
+            print( "" )
 
-print("")
+print( "" )
 toc = perf_counter()
-print( "Completed in " + str(int(toc-tic)) + " seconds." )
-accuracy = "{:.2f}".format( ( len(flashcards) / questions_asked ) * 100 )
+print( "Completed in " + str( int( toc - tic ) ) + " seconds." )
+accuracy = "{:.2f}".format( ( len( flashcards ) / questions_asked ) * 100 )
 print( "Accuracy: " + str( accuracy ) + "%" )   
