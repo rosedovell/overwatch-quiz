@@ -221,6 +221,36 @@ hanzo = [
     }
 ]
 
+junkrat = [
+    "Junkrat",
+    {
+        "Total HP" : "200",
+        "Normal HP" : "200",
+        "Armor HP" : "0",
+        "Shield HP" : "0",
+        "Total Mayhem per Grenade Damage" : "50",
+        "Total Mayhem Grenade Count" : "6",
+        "Frag Launcher Direct Damage" : "120",
+        "Frag Launcher Splash Damage" : "12.5-80",
+        "Frag Launcher Fire Rate" : "1.66rps",
+        "Frag Launcher Ammo" : "5",
+        "Frag Launcher Reload Time" : "1.5s",
+        "Frag Launcher Bounces Count" : "2",
+        "Concussion Mine Damage" : "50-120",
+        "Concussion Mine Ammo" : "2",
+        "Concussion Mine Cooldown" : "8s",
+        "Steel Trap HP" : "100",
+        "Steel Trap Damage" : "80",
+        "Steel Trap Trapped Duration" : "3s",
+        "Steel Trap Cooldown" : "10s",
+        "RIP-Tire HP" : "100",
+        "RIP-Tire Damage" : "60-600",
+        "RIP-Tire Cast Time" : "1s",
+        "RIP-Tire Duration" : "10s",
+        "RIP-Tire Movement Speed" : "12m/s"
+    }
+]
+
 orisa = [
     "Orisa",
     {
@@ -457,6 +487,7 @@ heroes = [
     echo,
     genji,
     hanzo,
+    junkrat,
     orisa,
     reinhardt,
     roadhog,
