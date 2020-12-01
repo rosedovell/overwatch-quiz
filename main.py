@@ -3,6 +3,36 @@
 from random import shuffle
 from time import perf_counter
 
+ana = [
+    "Ana",
+    {
+        "Total HP" : "200",
+        "Normal HP" : "200",
+        "Armor HP" : "0",
+        "Shield HP" : "0",
+        "Biotic Rifle Damage" : "70",
+        "Biotic Rifle HP Heal" : "70",
+        "Biotic Rifle Fire Rate" : "1.2rps",
+        "Biotic Rifle Ammo" : "12",
+        "Biotic Rifle Reload Time" : "1.5s",
+        "Biotic Rifle Scope In Cast Time" : "0.25s",
+        "Biotic Rifle Scope Out Cast Time" : "0.15s",
+        "Sleep Dart Damage" : "5",
+        "Sleep Dart Delay" : "0.5s",
+        "Sleep Dart Duration" : "5s",
+        "Sleep Dart Cooldown" : "12s",
+        "Biotic Grenade Damage" : "60",
+        "Biotic Grenade Immediate Healing" : "100",
+        "Biotic Grenade Enemy Healing Block Duration" : "4s",
+        "Biotic Grenade Ally Increased Healing Duration" : "4s",
+        "Biotic Grenade Cooldown" : "4s",
+        "Nano Boost HP Heal" : "250",
+        "Nano Boost Damage Boost" : "150%",
+        "Nano Boost Damage Taken Reduction" : "50%",
+        "Nano Boost Duration" : "8s"
+    }
+]
+
 ashe = [
     "Ashe",
     {
@@ -784,6 +814,7 @@ zarya = [
 ]
 
 heroes = [
+    ana,
     ashe,
     bastion,
     doomfist,
