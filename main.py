@@ -601,6 +601,44 @@ symmetra = [
     }
 ]
 
+torbjorn = [
+    "Torbjorn",
+    {
+        "Total HP" : "250",
+        "Normal HP" : "200",
+        "Armor HP" : "50",
+        "Shield HP" : "0",
+        "Rivet Gun Damage" : "70",
+        "Rivet Gun Fire Rate" : "1.67rps",
+        "Rivet Gun Ammo" : "18",
+        "Rivet Gun Reload Time" : "2s",
+        "Rivet Gun Alt Damage" : "3.75-12.5 per pellet",
+        "Rivet Gun Alt Pellet Count" : "10",
+        "Rivet Gun Alt Fire Rate" : "1.25rps",
+        "Rivet Gun Alt Ammo (3 per shot)" : "18",
+        "Rivet Gun Alt Reload Time" : "2s",
+        "Forge Hammer Damage" : "55",
+        "Forge Hammer Turret HP Repair" : "50",
+        "Forge Hammer Fire Rate" : "1.25rps",
+        "Deploy Turret Deploy Time" : "3s",
+        "Deploy Turret Health" : "250",
+        "Deploy Turret Damage" : "14",
+        "Deploy Turret Fire Rate" : "4rps",
+        "Deploy Turret Cooldown (Not Destroyed)" : "5s",
+        "Deploy Turret Cooldown (When Destroyed)" : "10s",
+        "Overload Armor HP Boost" : "100",
+        "Overload Movement Speed" : "130%",
+        "Overload Duration" : "5s",
+        "Overload Cooldown" : "10s",
+        "Molten Core Damage to Normal HP and Shield HP per second" : "160",
+        "Molten Core Damage to Armor HP per second" : "190",
+        "Molten Core Fire Rate" : "6.66rps",
+        "Molten Core Ammo" : "10",
+        "Molten Core Fire Duration" : "6s",
+        "Molten Core Pool Duration" : "10s"
+    }
+]
+
 winston = [
     "Winston",
     {
@@ -712,6 +750,7 @@ heroes = [
     soldier_76,
     sombra,
     symmetra,
+    torbjorn,
     winston,
     wrecking_ball,
     zarya
