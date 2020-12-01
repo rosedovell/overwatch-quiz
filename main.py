@@ -616,6 +616,40 @@ zarya = [
     }
 ]
 
+sombra = [
+    "Sombra",
+    {
+        "Total HP" : "200",
+        "Normal HP" : "200",
+        "Armor HP" : "0",
+        "Shield HP" : "0",
+        "Opportunist Enemy Health Bar Visibility When Enemy HP Below" : "100%",
+        "Opportunist Enemy Wall Hack Visibility When Enemy HP Below" : "50%",
+        "Machine Pistol Damage" : "2.4-8",
+        "Machine Pistol Fire Rate" : "20rps",
+        "Machine Pistol Ammo" : "60",
+        "Machine Pistol Reload Time" : "1.5s",
+        "Hack Cast Time" : "0.65s",
+        "Hack Cooldown (Enemy Hack)" : "8s",
+        "Hack Cooldown (Health Pack Hack)" : "4s",
+        "Hack Cooldown (Interrupted)" : "2s",
+        "Hack Duration (Hero Abilities)" : "5s",
+        "Hack Duration (HP/Ult Status Reveal Time)" : "20s",
+        "Hack Duration (Health Packs)" : "60s",
+        "Hack Duration (Turret)" : "10s",
+        "Hack Small Health Pack Respawn Time" : "2.5s",
+        "Hack Large Health Pack Respawn Time" : "3.5s",
+        "Stealth Cast Time" : "0.7s",
+        "Stealth Movement Speed" : "150%",
+        "Stealth Cooldown" : "6s",
+        "Translocator HP" : "5",
+        "Translocator Cooldown" : "6s",
+        "EMP Area Radius" : "15m",
+        "EMP Cast Time" : "0.65s",
+        "EMP Duration" : "6s"
+    }
+]
+
 heroes = [
     ashe,
     bastion,
@@ -634,6 +668,7 @@ heroes = [
     roadhog,
     sigma,
     soldier_76,
+    sombra,
     winston,
     wrecking_ball,
     zarya
