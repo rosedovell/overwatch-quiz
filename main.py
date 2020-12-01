@@ -130,6 +130,43 @@ bastion = [
     }
 ]
 
+brigitte = [
+    "Brigitte",
+    {
+        "Total HP" : "200",
+        "Normal HP" : "150",
+        "Armor HP" : "50",
+        "Shield HP" : "0",
+        "Inspire Heal Rate per Second" : "15",
+        "Inspire Area Radius" : "20m",
+        "Inspire Duration" : "6s",
+        "Inspire Cooldown" : "1s",
+        "Rocket Flail Damage" : "35",
+        "Rocket Flail Fire Rate" : "1.67rps",
+        "Rocket Flail Range" : "6m",
+        "Barrier Shield HP" : "250",
+        "Barrier Shield Regen Time After Putting Away" : "2s",
+        "Barrier Shield Regen Rate per Second" : "85",
+        "Barrier Shield Movement Speed" : "70%",
+        "Barrier Shield Cooldown When Broken" : "5s",
+        "Shield Bash Damage" : "5",
+        "Shield Bash Range" : "6m",
+        "Shield Bash Stun Duration"  : "0.75s",
+        "Shield Bash Cooldown" : "7s",
+        "Whip Shot Damage" : "70",
+        "Whip Shot Range" : "20m",
+        "Whip Shot Cooldown" : "4s",
+        "Repair Pack Healing per Second" : "55",
+        "Repair Pack Duration" : "2s",
+        "Repair Pack Cooldown per Charge" : "6s",
+        "Repair Pack Charge Count" : "3",
+        "Rally Armor per Second" : "30",
+        "Rally Max Armor" : "100",
+        "Rally Area Radius" : "8m",
+        "Rally Duration" : "30s"
+    }
+ ]
+
 doomfist = [
     "Doomfist",
     {
@@ -853,6 +890,7 @@ heroes = [
     ashe,
     baptiste,
     bastion,
+    brigitte,
     doomfist,
     dva,
     echo,
