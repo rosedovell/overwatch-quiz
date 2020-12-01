@@ -475,6 +475,42 @@ mercy = [
     }
 ]
 
+moira = [
+    "Moira",
+    {
+        "Total HP" : "200",
+        "Normal HP" : "200",
+        "Armor HP" : "0",
+        "Shield HP" : "0",
+        "Biotic Grasp: Regeneration Healing per Second" : "70",
+        "Biotic Grasp: Regeneration Residue Time" : "2s",
+        "Biotic Grasp: Regeneration Residue Healing" : "35",
+        "Biotic Grasp: Regeneration Fire Rate" : "20rps",
+        "Biotic Grasp: Regeneration Energy Recharge Rate" : "3rps",
+        "Biotic Grasp: Regeneration Energy" : "140",
+        "Biotic Grasp: Regeneration Range" : "15m",
+        "Biotic Grasp: Regeneration Max Recharge Time" : "45s",
+        "Biotic Grasp: Decay Damage per Second" : "50",
+        "Biotic Grasp: Decay Self Heal per Second" : "20",
+        "Biotic Grasp: Decay Energy Regen per Second" : "22",
+        "Biotic Grasp: Decay Range" : "20m",
+        "Fade Movement Speed" : "340%",
+        "Fade Duration" : "0.8s",
+        "Fade Cooldown" : "6s",
+        "Biotic Orb Enemy Damage per Second" : "50",
+        "Biotic Orb Enemy Max Damage" : "200",
+        "Biotic Orb Ally HP Heal per Second" : "75",
+        "Biotic Orb Ally Max HP Heal" : "300",
+        "Biotic Orb Duration" : "7s",
+        "Biotic Orb Cooldown" : "10s",
+        "Coalescence Damage per Second" : "70",
+        "Coalescence Ally HP Heal per Second" : "140",
+        "Coalescence Self HP Heal per Second" : "50",
+        "Coalescence Movement Speed" : "164%",
+        "Coalescence Duration" : "8s"
+    }
+]
+
 orisa = [
     "Orisa",
     {
@@ -961,6 +997,7 @@ heroes = [
     mccree,
     mei,
     mercy,
+    moira,
     orisa,
     pharah,
     reaper,
