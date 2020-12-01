@@ -501,6 +501,30 @@ sigma = [
     }
 ]
 
+soldier_76 = [
+    "Soldier 76",
+    {
+        "Total HP" : "200",
+        "Normal HP" : "200",
+        "Armor HP" : "0",
+        "Shield HP" : "0",
+        "Heavy Pulse Rifle Damage" : "9-20",
+        "Heavy Pulse Rifle Fire Rate" : "9rps",
+        "Heavy Pulse Rifle Ammo" : "25",
+        "Heavy Pulse Rifle Reload Time" : "1s",
+        "Helix Rockets Damage" : "120",
+        "Helix Rockets Cooldown" : "6s",
+        "Sprint Movement Speed" : "150%",
+        "Sprint Firing Delay" : "0.3s",
+        "Biotic Field HP Heal Rate" : "40/s",
+        "Biotic Field Duration" : "5s",
+        "Biotic Field Cooldown" : "15s",
+        "Tactical Vison Cast Time" : "1.4s",
+        "Tactical Visor Duration" : "6s",
+        "Tactical Visor Reload Time" : "0.75s"
+    }
+]
+
 winston = [
     "Winston",
     {
@@ -609,6 +633,7 @@ heroes = [
     reinhardt,
     roadhog,
     sigma,
+    soldier_76,
     winston,
     wrecking_ball,
     zarya
@@ -646,6 +671,7 @@ while len( flashcards_keys ) != len( correct_keys ):
             else:
                 print( "INCORRECT" )
                 print( "Correct answer was: " + flashcards[ question ] )
+            print("")
 
 print("")
 toc = perf_counter()
