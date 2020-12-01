@@ -251,6 +251,36 @@ junkrat = [
     }
 ]
 
+mccree = [
+    "McCree",
+    {
+        "Total HP" : "200",
+        "Normal HP" : "200",
+        "Armor HP" : "0",
+        "Shield HP" : "0",
+        "Peacekeeper Damage" : "20-70",
+        "Peacekeeper Fire Rate" : "2rps",
+        "Peacekeeper Ammo" : "6",
+        "Peacekeeper Reload Time" : "1.5s",
+        "Fan the Hammer Damage Per Shot" : "27.5-50",
+        "Fan the Hammer Fire Rate" : "6rps",
+        "Fan the Hammer Ammo" : "6",
+        "Fan the Hammer Reload Time" : "1.5s",
+        "Combat Roll Cooldown" : "6s",
+        "Combat Roll Duration" : "0.5s",
+        "Flashbang Damage" : "25",
+        "Flashbang Cooldown" : "10s",
+        "Flashbang Stun Duration" : "0.7s",
+        "Deadeye Damage 0.2-1s Damage Ramp-up" : "100/s",
+        "Deadeye Damage 1s-1.5s Damage Ramp-up" : "275/s",
+        "Deadeye Damage 1.5s+ Damage Ramp-up" : "550/s",
+        "Deadeye Cast Time" : "0.2s",
+        "Deadeye Range" : "200m",
+        "Deadeye Duration" : "6s",
+        "Deadeye Movement Speed" : "35%"
+    }
+]
+
 orisa = [
     "Orisa",
     {
@@ -488,6 +518,7 @@ heroes = [
     genji,
     hanzo,
     junkrat,
+    mccree,
     orisa,
     reinhardt,
     roadhog,
