@@ -5,8 +5,11 @@ from sys import argv
 from time import perf_counter
 
 # Restrict hero count to the first x
-if len(argv) > 1:
+if len(argv) == 2:
     max_hero_count = int( argv[1] ) - 1
+elif len(argv) == 3:
+    min_hero_count = int( argv[1] ) - 1
+    max_hero_count = int( argv[2] ) - 1
 
 ana = [
     "Ana",
@@ -1058,11 +1061,15 @@ questions_asked = 0.0
 tic = perf_counter()
 
 hero_counter = 0
+if not "min_hero_count" in locals():
+    min_hero_count = 0
 if not "max_hero_count" in locals():
     max_hero_count = len( heroes )
 
 for hero in heroes:
-    if hero_counter <= max_hero_count:
+    if hero_counter < min_hero_count:
+        hero_counter += 1
+    elif hero_counter >= min_hero_count and hero_counter <= max_hero_count:
         hero_counter += 1
         hero_name = hero[ 0 ]
         hero_questions = hero[ 1 ]
