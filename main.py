@@ -663,6 +663,35 @@ tracer = [
     }
 ]
 
+widowmaker = [
+    "Widowmaker",
+    {
+        "Total HP" : "200",
+        "Normal HP" : "200",
+        "Armor HP" : "0",
+        "Shield HP" : "0",
+        "Widow's Kiss: Sniper Damage" : "12-120",
+        "Widow's Kiss: Sniper Recovery Rate" : "0.5s",
+        "Widow's Kiss: Sniper Ammo (5 Used per Shot)" : "35",
+        "Widow's Kiss: Sniper Reload Time" : "1.5s",
+        "Widow's Kiss: Sniper Charging Time" : "0.9s",
+        "Widow's Kiss: Sniper Critical Hit Multiplier" : "2.5",
+        "Widow's Kiss: Assault Damage" : "13",
+        "Widow's Kiss: Assault Fire Rate" : "10rps",
+        "Widow's Kiss: Assault" : "35",
+        "Widow's Kiss: Assault Reload Time" : "1.5s",
+        "Widow's Kiss: Assault Scope Cast Time" : "0.33s",
+        "Grappling Hook Range" : "20m",
+        "Grappling Hook Pull Speed" : "16m/s",
+        "Grappling Hook Cooldown" : "12s",
+        "Venom Mine Damage per Second" : "15",
+        "Venom Mine Poison Duration" : "5s",
+        "Venom Mine Cooldown" : "15s",
+        "Infra-Sight Cast Time" : "0.5s",
+        "Infra-Site Duration" : "15.5s"
+    }
+]
+
 winston = [
     "Winston",
     {
@@ -776,6 +805,7 @@ heroes = [
     symmetra,
     torbjorn,
     tracer,
+    widowmaker,
     winston,
     wrecking_ball,
     zarya
