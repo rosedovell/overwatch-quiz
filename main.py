@@ -46,7 +46,7 @@ ashe = [
         "The Viper Reload Cast Time" : "0.5s",
         "The Viper Reload Time Per Bullet" : "0.25s",
         "The Viper (Scoped) Damage" : "40-80",
-        "The Viper (Scoped) Fire Rate" : "1.4rps",
+        "The Viper (Scoped) Fire Rate" : "1.4s",
         "The Viper (Scoped) Movement Speed" : "80%",
         "Coach Gun Damage Per Pellet" : "6",
         "Coach Gun Pellet Count" : "15",
@@ -550,7 +550,7 @@ pharah = [
         "Shield HP" : "0",
         "Hover Jets Movement Speed" : "120%",
         "Hover Jets Max Duration" : "2s",
-        "Hover Jets Recharge Rate per Second" : "35%",
+        "Hover Jets Recharge Rate" : "35%/s",
         "Rocket Launcher Direct Damage" : "120",
         "Rocket Launcher Splash Damage" : "25-80",
         "Rocket Launcher Fire Rate" : "1.18rps",
@@ -604,7 +604,7 @@ reinhardt = [
         "Rocket Hammer Fire Rate" : "1.11rps",
         "Rocket Hammer Range" : "5m",
         "Barrier Field Shield HP" : "1600",
-        "Barrier Field Shield Regen Rate" : "195hps",
+        "Barrier Field Shield Regen Rate per Second" : "195",
         "Barrier Field Regen Cooldown (Not broken)" : "2s",
         "Barrier Field Cooldown (When broken)" : "5s",
         "Barrier Field Movement Speed" : "70%",
@@ -670,7 +670,7 @@ sigma = [
         "Hyperspheres Explosion radius" : "3m",
         "Hyperspheres Max Range" : "20m",
         "Experimental Barrier HP" : "700hp",
-        "Experimental Barrier HP Regen Rate" : "80hp/s",
+        "Experimental Barrier HP Regen Rate per Second" : "80",
         "Experimental Barrier HP Regen Cooldown (When not in use)" : "2s",
         "Experimental Barrier Cooldown (Not broken)" : "1s",
         "Experimental Barrier Cooldown (When broken)" : "5s",
@@ -687,7 +687,7 @@ sigma = [
         "Accretion Self Knockback" : "2m",
         "Accretion Cast Time" : "0.65s",
         "Accretion Knockback Duration" : "0.8s",
-        "Accretion Cooldown" : "10s",
+        "Accretion Cooldoown" : "10s",
         "Gravitic Flux Lift Damage" : "50",
         "Gravitic Flux Slam Damage" : "50% max hp",
         "Gravitic Flux Intro Cast Time" : "0.6s",
@@ -905,7 +905,7 @@ winston = [
         "Jump Pack Area Radius" : "5m",
         "Jump Pack Cooldown (not in Primal Rage)" : "6s",
         "Jump Pack Cooldown in Primal Rage" : "2s",
-        "Barrier Projector HP" : "600hp",
+        "Barrier Projector HP" : "600",
         "Barrier Projector Area Radius" : "5m",
         "Barrier Projector Duration" : "9s",
         "Barrier Projector Cooldown" : "13s",
@@ -1057,11 +1057,6 @@ for hero in heroes:
     hero_questions = hero[ 1 ]
     for question in hero_questions:
         key = hero_name + " | " + question
-        if not isinstance( hero_questions[ question ] , str ):
-            print( "ERROR: Not a string" )
-            print( key )
-            print( hero_questions[ question ] )
-            exit(2)
         flashcards[ key ] = hero_questions[ question ]
         flashcards_keys.append( key )
 
