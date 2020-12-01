@@ -639,6 +639,30 @@ torbjorn = [
     }
 ]
 
+tracer = [
+    "Tracer",
+    {
+        "Total HP" : "150",
+        "Normal HP" : "150",
+        "Armor HP" : "0",
+        "Shield HP" : "0",
+        "Pulse Pistols Damage" : "1.5-6",
+        "Pulse Pistols Fire Rate" : "20rps",
+        "Pulse Pistols Ammo" : "40",
+        "Pulse Pistols Reload Time" : "1s",
+        "Blink Range" : "7.5m",
+        "Blink Charges" : "3",
+        "Blink Cooldown per Charge" : "3s",
+        "Recall Health Earlier Time" : "3s",
+        "Recall Duration" : "1.25s",
+        "Recall Cooldown" : "12s",
+        "Pulse Bomb Explosion Damage" : "350",
+        "Pulse Bomb Impact Damage" : "5",
+        "Pulse Bomb Delay" : "1s",
+        "Pulse Bomb Area Radius" : "3m"
+    }
+]
+
 winston = [
     "Winston",
     {
@@ -751,6 +775,7 @@ heroes = [
     sombra,
     symmetra,
     torbjorn,
+    tracer,
     winston,
     wrecking_ball,
     zarya
