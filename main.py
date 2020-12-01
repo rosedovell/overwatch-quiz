@@ -1,7 +1,12 @@
 #!/usr/bin/python
 
 from random import shuffle
+from sys import argv
 from time import perf_counter
+
+# Restrict hero count to the first x
+if len(argv) > 1:
+    max_hero_count = int( argv[1] ) - 1
 
 ana = [
     "Ana",
@@ -1052,13 +1057,19 @@ questions_asked = 0.0
 
 tic = perf_counter()
 
+hero_counter = 0
+if not "max_hero_count" in locals():
+    max_hero_count = len( heroes )
+
 for hero in heroes:
-    hero_name = hero[ 0 ]
-    hero_questions = hero[ 1 ]
-    for question in hero_questions:
-        key = hero_name + " | " + question
-        flashcards[ key ] = hero_questions[ question ]
-        flashcards_keys.append( key )
+    if hero_counter <= max_hero_count:
+        hero_counter += 1
+        hero_name = hero[ 0 ]
+        hero_questions = hero[ 1 ]
+        for question in hero_questions:
+            key = hero_name + " | " + question
+            flashcards[ key ] = hero_questions[ question ]
+            flashcards_keys.append( key )
 
 while len( flashcards_keys ) != len( correct_keys ):
     shuffle( flashcards_keys )
