@@ -64,6 +64,41 @@ ashe = [
     }
 ]
 
+baptiste = [
+    "Baptiste",
+    {
+        "Total HP" : "200",
+        "Normal HP" : "200",
+        "Armor HP" : "0",
+        "Shield HP" : "0",
+        "Exo Boots Max Charge Time" : "0.7s",
+        "Exo Boots Charge Duration After Crouch Is Released" : "1s",
+        "Biotic Launcher Damage" : "12.5-25",
+        "Biotic Launcher Fire Rate per Round (3 Rounds Per Cast)" : "0.2s",
+        "Biotic Launcher Recovery Time" : "0.45s",
+        "Biotic Launcher Ammo" : "45",
+        "Biotic Launcher Reload Time" : "1.5s",
+        "Biotic Launcher Alt Healing" : "50",
+        "Biotic Launcher Alt Radius" : "3m",
+        "Biotic Launcher Fire Rate" : "1.25rps",
+        "Biotic Launcher Ammo" : "10",
+        "Biotic Launcher Reload Time" : "1.5s",
+        "Regenerative Burst Ally Healing per Second" : "15",
+        "Regenerative Burst Self Healing per Second" : "30",
+        "Regenerative Burst Duration" : "5s",
+        "Regenerative Burst Cooldown" : "13s",
+        "Immortality Field HP" : "200",
+        "Immortality Field Minimum HP (Ally Health Cannot Fall Below This)" : "20%",
+        "Immortality Field Duration" : "5s",
+        "Immortality Field Cooldown" : "25s",
+        "Amplification Matrix Damage Boost" : "200%",
+        "Amplification Matrix Healing Boost" : "200%",
+        "Amplification Matrix Width" : "5m",
+        "Amplification Matrix Height" : "4m",
+        "Amplification Matrix Duration" : "10s"
+    }
+]
+
 bastion = [
     "Bastion",
     {
@@ -816,6 +851,7 @@ zarya = [
 heroes = [
     ana,
     ashe,
+    baptiste,
     bastion,
     doomfist,
     dva,
