@@ -353,6 +353,39 @@ junkrat = [
     }
 ]
 
+lucio = [
+    "Lucio",
+    {
+        "Total HP" : "200",
+        "Normal HP" : "200",
+        "Armor HP" : "0",
+        "Shield HP" : "0",
+        "Wall Rider Movement Speed" : "130%",
+        "Wall Rider Leap Movement Speed Bonus" : "2.5m/s",
+        "Sonic Amplifier Damage" : "20",
+        "Sonic Amplifier Fire Rate" : "4rps",
+        "Sonic Amplifier Ammo" : "20",
+        "Sonic Amplifier Reload" : "1.5s",
+        "Soundwave Damage" : "25",
+        "Soundwave Range" : "8m",
+        "Soundwave Cooldown" : "4s",
+        "Crossfade Ally Heal Rate per Second" : "16.25",
+        "Crossfade Self Heal Rate per Second" : "13",
+        "Crossfade Movement Speed Boost" : "125%",
+        "Crossfade Range" : "12m",
+        "Crossfade Switch Cast Time" : "0.8s",
+        "Amp It Up Ally Heal Rate per Second" : "46.8",
+        "Amp It Up Self Heal Rate per Second" : "35",
+        "Amp It Up Movement Speed Boost" : "160%",
+        "Amp It Up Duration" : "3s",
+        "Amp It Up Cooldown" : "12s",
+        "Sound Barrier Shield HP" : "750",
+        "Sound Barrier Shield Decay per Second" : "80",
+        "Sound Barrier Range" : "30m",
+        "Sound Barrier Duration" : "6.25s"
+     }
+]
+
 mccree = [
     "McCree",
     {
@@ -897,6 +930,7 @@ heroes = [
     genji,
     hanzo,
     junkrat,
+    lucio,
     mccree,
     mei,
     orisa,
