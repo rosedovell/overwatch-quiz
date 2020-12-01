@@ -525,6 +525,82 @@ soldier_76 = [
     }
 ]
 
+sombra = [
+    "Sombra",
+    {
+        "Total HP" : "200",
+        "Normal HP" : "200",
+        "Armor HP" : "0",
+        "Shield HP" : "0",
+        "Opportunist Enemy Health Bar Visibility When Enemy HP Below" : "100%",
+        "Opportunist Enemy Wall Hack Visibility When Enemy HP Below" : "50%",
+        "Machine Pistol Damage" : "2.4-8",
+        "Machine Pistol Fire Rate" : "20rps",
+        "Machine Pistol Ammo" : "60",
+        "Machine Pistol Reload Time" : "1.5s",
+        "Hack Cast Time" : "0.65s",
+        "Hack Cooldown (Enemy Hack)" : "8s",
+        "Hack Cooldown (Health Pack Hack)" : "4s",
+        "Hack Cooldown (Interrupted)" : "2s",
+        "Hack Duration (Hero Abilities)" : "5s",
+        "Hack Duration (HP/Ult Status Reveal Time)" : "20s",
+        "Hack Duration (Health Packs)" : "60s",
+        "Hack Duration (Turret)" : "10s",
+        "Hack Small Health Pack Respawn Time" : "2.5s",
+        "Hack Large Health Pack Respawn Time" : "3.5s",
+        "Stealth Cast Time" : "0.7s",
+        "Stealth Movement Speed" : "150%",
+        "Stealth Cooldown" : "6s",
+        "Translocator HP" : "5",
+        "Translocator Cooldown" : "6s",
+        "EMP Area Radius" : "15m",
+        "EMP Cast Time" : "0.65s",
+        "EMP Duration" : "6s"
+    }
+]
+
+symmetra = [
+    "Symmetra",
+    {
+        "Total HP" : "200",
+        "Normal HP" : "100",
+        "Armor HP" : "0",
+        "Shield HP" : "100",
+        "Photon Projector Level 1 Damage" : "60",
+        "Photon Projector Level 2 Damage" : "120",
+        "Photon Projector Level 3 Damage" : "180",
+        "Photon Projector Upgrade Time (Continuous Connection)" : "1.33s",
+        "Photon Projector Range" : "12m",
+        "Photon Projector Ammo" : "70",
+        "Photon Projector Barrier Ammo Regen Rate" : "7rps",
+        "Photon Projector Fire Rate" : "7rps",
+        "Photon Projector Reload Time" : "1.8s",
+        "Energy Ball Impact Damage" : "60",
+        "Energy Ball Explosive Damage" : "60",
+        "Energy Ball Charge Time" : "0.2-1s",
+        "Energy Ball Ammo" : "70",
+        "Energy Ball Ammo Use" : "1-10",
+        "Energy Ball Reload Time" : "1.8s",
+        "Sentry Turret HP" : "30",
+        "Sentry Turret DPS" : "40",
+        "Sentry Turret Movement Slowdown" : "1m/s",
+        "Sentry Turret Casting Speed" : "0.5s",
+        "Sentry Turret Deploy Time" : "1s",
+        "Sentry Turret Ammo" : "3",
+        "Sentry Turret Cooldown" : "10s",
+        "Teleporter Total HP" : "300",
+        "Teleporter Normal HP" : "50",
+        "Teleporter Shield HP" : "250",
+        "Teleporter Cast Time" : "1s",
+        "Teleporter Deploy Time" : "2s",
+        "Teleporter Range" : "30m",
+        "Teleporter Cooldown" : "10s",
+        "Photon Barrier HP" : "4000",
+        "Photon Barrier Cast Range" : "25m",
+        "Photon Barrier Duration" : "12s"
+    }
+]
+
 winston = [
     "Winston",
     {
@@ -616,40 +692,6 @@ zarya = [
     }
 ]
 
-sombra = [
-    "Sombra",
-    {
-        "Total HP" : "200",
-        "Normal HP" : "200",
-        "Armor HP" : "0",
-        "Shield HP" : "0",
-        "Opportunist Enemy Health Bar Visibility When Enemy HP Below" : "100%",
-        "Opportunist Enemy Wall Hack Visibility When Enemy HP Below" : "50%",
-        "Machine Pistol Damage" : "2.4-8",
-        "Machine Pistol Fire Rate" : "20rps",
-        "Machine Pistol Ammo" : "60",
-        "Machine Pistol Reload Time" : "1.5s",
-        "Hack Cast Time" : "0.65s",
-        "Hack Cooldown (Enemy Hack)" : "8s",
-        "Hack Cooldown (Health Pack Hack)" : "4s",
-        "Hack Cooldown (Interrupted)" : "2s",
-        "Hack Duration (Hero Abilities)" : "5s",
-        "Hack Duration (HP/Ult Status Reveal Time)" : "20s",
-        "Hack Duration (Health Packs)" : "60s",
-        "Hack Duration (Turret)" : "10s",
-        "Hack Small Health Pack Respawn Time" : "2.5s",
-        "Hack Large Health Pack Respawn Time" : "3.5s",
-        "Stealth Cast Time" : "0.7s",
-        "Stealth Movement Speed" : "150%",
-        "Stealth Cooldown" : "6s",
-        "Translocator HP" : "5",
-        "Translocator Cooldown" : "6s",
-        "EMP Area Radius" : "15m",
-        "EMP Cast Time" : "0.65s",
-        "EMP Duration" : "6s"
-    }
-]
-
 heroes = [
     ashe,
     bastion,
@@ -669,6 +711,7 @@ heroes = [
     sigma,
     soldier_76,
     sombra,
+    symmetra,
     winston,
     wrecking_ball,
     zarya
