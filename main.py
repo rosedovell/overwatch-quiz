@@ -281,6 +281,38 @@ mccree = [
     }
 ]
 
+mei = [
+    "Mei",
+    {
+        "Total HP" : "250",
+        "Normal HP" : "250",
+        "Armor HP" : "0",
+        "Shield HP" : "0",
+        "Endothermic Blaster Damage" : "2.75",
+        "Endothermic Blaster Fire Rate" : "20rps",
+        "Endothermic Blaster Ammo" : "120",
+        "Endothermic Blaster Reload Time" : "1.5s",
+        "Endothermic Blaster Slowdown Duration" : "1s",
+        "Endothermic Blaster Freeze Duration" : "1.3s",
+        "Icicle Damage" : "25-75",
+        "Icicle Delay" : "0.4s",
+        "Icicle Fire Rate" : "1.2rps",
+        "Icicle Ammo (10 used per shot)" : "120",
+        "Icicle Reload Time" : "1.5s",
+        "Cryo-Freeze Heal Rate" : "37.5hp/s",
+        "Cryo-Freeze Duration" : "4s",
+        "Cryo-Freeze Cooldown" : "12s",
+        "Ice Wall HP per pillar" : "400",
+        "Ice Wall Pillar Count" : "5",
+        "Ice Wall Duration" : "4.5s",
+        "Ice Wall Cooldown" : "13s",
+        "Blizzard Area Radius" : "10m",
+        "Blizzard Damage" : "20/s",
+        "Blizzard Cast Time" : "1.5s",
+        "Blizzard Duration" : "4.25s"
+    }
+]
+
 orisa = [
     "Orisa",
     {
@@ -310,6 +342,57 @@ orisa = [
         "Supercharger Duration" : "15s"
         }
     ]
+
+pharah = [
+    "Pharah",
+    {
+        "Total HP" : "200",
+        "Normal HP" : "200",
+        "Armor HP" : "0",
+        "Shield HP" : "0",
+        "Hover Jets Movement Speed" : "120%",
+        "Hover Jets Max Duration" : "2s",
+        "Hover Jets Recharge Rate" : "35%/s",
+        "Rocket Launcher Direct Damage" : "120",
+        "Rocket Launcher Splash Damage" : "25-80",
+        "Rocket Launcher Fire Rate" : "1.18rps",
+        "Rocket Launcher Ammo" : "6",
+        "Rocket Launcher Reload Time" : "1s",
+        "Jump Jet Height" : "25m",
+        "Jump Jet Movement Speed" : "20m/s",
+        "Jump Jet Cooldown" : "10s",
+        "Concussive Blast Knockback Radius" : "8m",
+        "Concussive Blast Cooldown" : "9s",
+        "Barrage Damage per Rocket" : "40",
+        "Barrage Fire Rate" : "40rps",
+        "Barrage Duration" : "2.5s"
+    }
+]
+
+reaper = [
+    "Reaper",
+    {
+        "Total HP" : "250",
+        "Normal HP" : "250",
+        "Armor HP" : "0",
+        "Health HP" : "0",
+        "The Reaping HP Refill" : "30%",
+        "Hellfire Shotguns Damage" : "2-7 per pellet",
+        "Hellfire Shotguns Pellet Count" : "20",
+        "Hellfire Shotguns Ammo Count" : "8",
+        "Hellfire Shotguns Reload Time" : "1.5s",
+        "Wraith Form Cooldown" : "8s",
+        "Wraith Form Duration" : "3s",
+        "Wraith Form Movement Speed" : "150%",
+        "Shadow Step Range" : "35m",
+        "Shadow Step Cooldown" : "10s",
+        "Shadow Step Entering Duration" : "1s",
+        "Shadow Step Exiting Duration" : "0.5s",
+        "Death Blossom Total Damage" : "510",
+        "Death Blossom Duration" : "3s",
+        "Death Blossom Movement Speed" : "55%"
+    }
+]
 
 reinhardt = [
     "Reinhardt",
@@ -519,7 +602,10 @@ heroes = [
     hanzo,
     junkrat,
     mccree,
+    mei,
     orisa,
+    pharah,
+    reaper,
     reinhardt,
     roadhog,
     sigma,
