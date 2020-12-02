@@ -6,10 +6,10 @@ from time import perf_counter
 
 # Restrict hero count to the first x
 if len(argv) == 2:
-    max_hero_count = int( argv[1] ) - 1
+    max_hero_index = int( argv[1] )
 elif len(argv) == 3:
-    min_hero_count = int( argv[1] ) - 1
-    max_hero_count = int( argv[2] ) - 1
+    min_hero_index = int( argv[1] )
+    max_hero_index = int( argv[2] )
 
 ana = [
     "Ana",
@@ -54,7 +54,7 @@ ashe = [
         "The Viper Reload Cast Time" : "0.5s",
         "The Viper Reload Time Per Bullet" : "0.25s",
         "The Viper (Scoped) Damage" : "40-80",
-        "The Viper (Scoped) Fire Rate" : "1.4s",
+        "The Viper (Scoped) Fire Rate" : "1.4rps",
         "The Viper (Scoped) Movement Speed" : "80%",
         "Coach Gun Damage Per Pellet" : "6",
         "Coach Gun Pellet Count" : "15",
@@ -1061,15 +1061,15 @@ questions_asked = 0.0
 tic = perf_counter()
 
 hero_counter = 0
-if not "min_hero_count" in locals():
-    min_hero_count = 0
-if not "max_hero_count" in locals():
-    max_hero_count = len( heroes )
+if not "min_hero_index" in locals():
+    min_hero_index = 0
+if not "max_hero_index" in locals():
+    max_hero_index = len( heroes )
 
 for hero in heroes:
-    if hero_counter < min_hero_count:
+    if hero_counter < min_hero_index:
         hero_counter += 1
-    elif hero_counter >= min_hero_count and hero_counter <= max_hero_count:
+    elif hero_counter >= min_hero_index and hero_counter <= max_hero_index:
         hero_counter += 1
         hero_name = hero[ 0 ]
         hero_questions = hero[ 1 ]
